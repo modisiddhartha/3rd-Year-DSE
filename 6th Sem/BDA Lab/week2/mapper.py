@@ -8,4 +8,4 @@ for line in sys.stdin:
 	words = line.split()
 # increase counters
 	for word in words:
-		print ('%s\t%s' % (word, 1))
+		print (f'{word}\t1')
